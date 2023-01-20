@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    margin-bottom: 150px;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+/*======================--- custom scroll bar is starts here ---=============================*/
+::-webkit-scrollbar {
+    width: .38rem;
+}
+::-webkit-scrollbar-track {
+    background-color: #FCEAE8;
+}
+::-webkit-scrollbar-thumb {
+    background: #f082ae;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #f5317f;
+}
+/*======================--- custom scroll bar is ends here ---=============================*/
+
+
+/* ================--- nav section is starts here ---=================== */
+.navbar-nav li a:hover{
+    color:black !important;
+}
+/* ================--- nav section is ends here ---=================== */
+
+
+/* ================--- banner section is starts here ---=================== */
+.carousel-inner{
+    background-color: #FCEAE8;
+    border-radius: .6rem;
+    margin-top: 9.5rem;
+}
+.carousel-item{
+    padding: 2rem 3rem;
+}
+.carousel-item img{
+    max-width: 80%;
+    margin-left: 6rem;
+}
+.price{
+    color: #ef0b66;
+}
+.buy-btn{
+    color: white;
+    background-image: linear-gradient(to top, #ff458f, #f1639c);
+    padding: .5rem 1.6rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: .4rem;
+}
+.carousel-control-next-icon{
+    background-color:#f1c7c3;
+    border-radius: .3rem;
+}
+.carousel-control-prev-icon{
+    background-color:#f1c7c3;
+    border-radius: .3rem;
+}
+/* ================--- banner section is ends here ---=================== */
+
+
+/* ================--- category section is starts here ---=================== */
+.cat1,.cat2,.cat3{
+    color: white;
+    padding: .5rem 1rem;
+    border-radius: .6rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: all .4s;
+}
+.cat1{
+    background-image: linear-gradient(to left, rgb(235, 189, 105), tomato);
+}
+.cat1:hover{
+    transform: scale(1.1,1.1);
+}
+.cat2{
+    background-image: linear-gradient(to left, rgb(247, 148, 164), deeppink);
+}
+.cat2:hover{
+    transform: scale(1.1,1.1);
+}
+.cat3{
+    background-image: linear-gradient(to left, rgb(102, 195, 231),rgb(45, 45, 230));
+}
+.cat3:hover{
+    transform: scale(1.1,1.1);
+}
+/* ================--- category section is ends here ---=================== */
+
+
+/* ================--- shoes & Backpack section is start here ---=================== */
+.card{
+    border: none;
+    box-shadow: 5px 5px 10px lightgray;
+    border-radius: .6rem;
+    margin: 0 1rem;
+    transition: all .4s;
+}
+.card1:hover{
+    background-color: #E0E0E0;
+    transform: scale(1.1,1.1);
+}
+.card2:hover{
+    background-color: #E0E0E0;
+    transform: scale(1.1,1.1);
+}
+.card3:hover{
+    background-color: #E0E0E0;
+    transform: scale(1.1,1.1);
+}
+/* ================--- shoes & Backpack section is ends here ---=================== */
+
+
+/* ================--- Subscribe section is starts here ---=================== */
+#subscribe{
+    background-color: #FCEAE8;
+    border-radius: .6rem;
+    padding: 2rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+input[type=email]{
+    width: 170%;
+    border: 1px solid rgb(201, 183, 183);
+    padding: .4rem .5rem;
+    margin: .6rem 0;
+    border-radius: .4rem;
+}
+textarea{
+    width: 89%;
+    border: 1px solid rgb(201, 183, 183);
+    padding: .4rem .5rem;
+    border-radius: .4rem;
+    margin-bottom: .6rem;
+}
+/* ================--- Subscribe section is ends here ---=================== */
